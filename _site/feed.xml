@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title></title>
+		<description>这是一个个人网站</description>
+		<link>/</link>
+		<atom:link href="/" rel="self" type="application/rss+xml" />
+		
+			<item>
+				<title>一个例子</title>
+				<description>&lt;p&gt;存一下格式&lt;/p&gt;
+</description>
+				<pubDate>Thu, 26 Nov 2015 00:00:00 +0800</pubDate>
+				<link>/%E9%9A%8F%E7%AC%94/%E6%8A%80%E6%9C%AF/2015/11/26/a.html</link>
+				<guid isPermaLink="true">/%E9%9A%8F%E7%AC%94/%E6%8A%80%E6%9C%AF/2015/11/26/a.html</guid>
+			</item>
+		
+	</channel>
+</rss>
