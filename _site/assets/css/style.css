@@ -8,8 +8,12 @@ body{
 	position: fixed;
 	top: 0px;
 	padding-top: 10%;
-	background-color: #E69B3A;
+	background-color: #EC8254;
 	color: #fff;
+}
+
+.page-header {
+    color: #EC8254;
 }
 
 .sidebar-header {
@@ -27,7 +31,7 @@ body{
 }
 
 a.link {
-    color: #8F583C;
+    color: #AB6134;
 }
 
 a.nav-link {
@@ -86,10 +90,6 @@ article .share .gplus:hover {
 	padding-bottom: 10px;
 }
 
-.page-header {
-	color: #FB8136;
-	/*text-shadow: 1px 1px 1px rgba(150, 150, 150, 1);*/
-}
 
 article{
 	margin-bottom: 40px;
@@ -122,20 +122,20 @@ article.home h4,
 article.home h5,
 article.home h6 {
 	font-family: 'Ubuntu', sans-serif;
-	color: #f2756a;
+	color: #4C221B;
 }
 
 article.home h1 a,
 article.home h2 a,
 article.home h3 a,
 article.home h4 a {
-	color: #f2756a;
+	color: #FF8936;
 }
 article.home h1 a:hover,
 article.home h2 a:hover,
 article.home h3 a:hover,
 article.home h4 a:hover {
-	color: #e74c3c;
+	color: #4C221B;
 }
 
 .author .author-image {
