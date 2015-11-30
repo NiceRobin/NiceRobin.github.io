@@ -52,6 +52,9 @@ comments: true
 
 3. 把很多singleton的指针作为一个singleton的成员，比如把game作为singleton，其他例如log，file，audio之类的都通过game来访问。
 
+### 6. State
+
+
 
 
 

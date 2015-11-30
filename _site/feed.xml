@@ -50,6 +50,8 @@
 &lt;li&gt;&lt;p&gt;可以使用父类，把原来singleton的指针放在父类里面。&lt;/p&gt;&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;把很多singleton的指针作为一个singleton的成员，比如把game作为singleton，其他例如log，file，audio之类的都通过game来访问。&lt;/p&gt;&lt;/li&gt;
 &lt;/ol&gt;
+
+&lt;h3&gt;6. State&lt;/h3&gt;
 </description>
 				<pubDate>Thu, 26 Nov 2015 00:00:00 +0800</pubDate>
 				<link>/%E6%8A%80%E6%9C%AF/2015/11/26/3-game-design-pattern.html</link>

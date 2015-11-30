@@ -65,14 +65,14 @@ article .share .twitter:hover {
 	color: #00ACEE;
 	border-color: #00ACEE;
 }
-#contact-list li:hover .fa-linkedin {
-	color: #1D87BD;
+#contact-list li:hover .fa-weibo {
+	color: #E93E30;
 }
 #contact-list li:hover .fa-envelope {
 	color: #E93E30;
 }
-#contact-list li:hover .fa-pinterest {
-	color: #CC2127;
+#contact-list li:hover .fa-github-alt {
+	color: #E93E30;
 }
 #contact-list li:hover .fa-rss {
 	color: #e74c3c;
