@@ -210,7 +210,7 @@
 <p>就是常见的loop和update，各种游戏引擎都实现了得那种。</p>
 
 <p>很赞的是固定时间update的实现方法。</p>
-<div class="highlight"><pre><code class="language-text" data-lang="text">double previous = getCurrentTime();
+<div class="highlight"><pre><code class="language-text" data-lang="text"><span></span>double previous = getCurrentTime();
 double lag = 0.0;
 while (true)
 {
@@ -235,7 +235,7 @@ while (true)
 <p>简要的介绍了基于栈的脚本语言的实现方式。</p>
 
 <p>用栈处理参数的方式：</p>
-<div class="highlight"><pre><code class="language-text" data-lang="text">0 func
+<div class="highlight"><pre><code class="language-text" data-lang="text"><span></span>0 func
 1 pram1(push to stack)
 2 param2(push to stack)
 3 run(pop param from stack)
@@ -275,12 +275,12 @@ while (true)
 <p>里面有个很厉害的例子。</p>
 
 <p>一般方案：</p>
-<div class="highlight"><pre><code class="language-text" data-lang="text">for sprite in spriteArr
+<div class="highlight"><pre><code class="language-text" data-lang="text"><span></span>for sprite in spriteArr
     spirte.renderComponent().update()
     spirte.aiComponent().update()
 </code></pre></div>
 <p>对缓存更友好的方案：</p>
-<div class="highlight"><pre><code class="language-text" data-lang="text">for rc in renderComponentArr
+<div class="highlight"><pre><code class="language-text" data-lang="text"><span></span>for rc in renderComponentArr
     rc.update()
 for ac in aiComponentArr
     ac.update()
@@ -385,7 +385,7 @@ for ac in aiComponentArr
 		  <li class="previous"><a href="/%E6%B8%B8%E6%88%8F/2015/11/26/2-%E6%8C%96%E6%8E%98%E6%9C%BA.html" title="挖掘机物语">&larr; Previous</a></li>
 		  
 		  
-			<li class="next disabled"><a>Next &rarr;</a>
+		  <li class="next"><a href="/2017/03/09/%E8%8B%B1%E8%AF%AD%E8%AF%AD%E6%B3%95.html" title="冰与天空">Next &rarr;</a></li>
 		  
 		</ul>
 
@@ -405,7 +405,7 @@ for ac in aiComponentArr
 		<footer>
 			<hr/>
 			<p>
-				&copy; 2015 dust with Jekyll and <a href="https://github.com/dbtek/dbyll">dbyll</a>.
+				&copy; 2018 dust with Jekyll and <a href="https://github.com/dbtek/dbyll">dbyll</a>.
 			</p>
 		</footer>
 	</div>
