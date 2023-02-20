@@ -35,6 +35,7 @@
   <div class="center">
     <p id="now"></p>
     <p id="pass"></p>
+    <p id="pass2"></p>
   </div>
 
   <script>
@@ -45,18 +46,26 @@
       return i;
     }
 
-    var from = new Date("Jun 6, 2020 12:30:00").getTime();
 
-    var x = setInterval(function () {
-
+    var func = function(from, title, target) {
       var now = new Date();
-
       var distance = now.getTime() - from;
-
       var days = Math.floor(distance / (1000 * 60 * 60 * 24));
       var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
       var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
       var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+      var passStr = title;
+      passStr += days + "天";
+      passStr += hours + "小时";
+      passStr += minutes + "分钟";
+      passStr += seconds + "秒啦💕";
+      document.getElementById(target).innerHTML = passStr;
+    }
+
+
+    var x = setInterval(function () {
+
+      var now = new Date();
 
       var nowStr = "今天是";
       nowStr += now.getFullYear() + "年";
@@ -67,14 +76,9 @@
       nowStr += pad(now.getSeconds()) + "秒";
 
       document.getElementById("now").innerHTML = nowStr;
-
-      var passStr = "和小可爱结婚已经";
-      passStr += days + "天";
-      passStr += hours + "小时";
-      passStr += minutes + "分钟";
-      passStr += seconds + "秒啦💕";
-      document.getElementById("pass").innerHTML = passStr;
-
+      
+      func(new Date("Jun 6, 2020 12:30:00").getTime(), "和小可爱结婚已经", "pass");
+      func(new Date("Feb 19, 2023 11:01:00").getTime(), "小朋友出生已经", "pass2");
     }, 500);
   </script>
 
