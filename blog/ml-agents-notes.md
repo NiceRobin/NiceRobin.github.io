@@ -1,0 +1,5 @@
+- protobuf and grpc version conflicts should be fixed.
+- add agent
+- request decision
+- ```mlagents-learn ./m3.yaml --run-id m3_02 --initialize-from m3_01```
+- ```tensorboard --logdir=results --port=6006```

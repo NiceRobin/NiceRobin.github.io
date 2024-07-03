@@ -1,0 +1,23 @@
+- beneath
+  - Netherland
+  - *nether*
+  - *neath*
+- percept (n.) **an object of perception; something that is perceived.**
+  - perception (n.)
+  - perceptive (adj.) **10 signs you're more perceptive than most people**
+    - *perceptively* (adv.)
+    - *perceptiveness* (n.)
+    - *perceptivity* (n.)
+  - perceptible (adj.) **DRM protection has "no perceptible impact on gameplay"**
+    - *perceptibly* (adv.)
+    - *perceptibility* (n.)
+  - perceptual (adj.) **relate to perception**
+  - perceive
+    - perceived
+    - perceivable ***perceivable*: only sensory vs *perceptible*: both sensory and mantal**
+- conceive **when a woman conceives or conceives a child , she becomes pregnant; to form an idea**
+  - conceivable **It is conceivable that I'll see her tomorrow**
+    - inconceivable
+  - concept
+  - conception
+  - conceptual
